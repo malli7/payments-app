@@ -1,4 +1,4 @@
-const base_url = "http://localhost:3000";
+const base_url = "https://payments-muvttu7lu-malli7s-projects.vercel.app";
 export const signUp = async (userDetails) => {
   try {
     const response = await fetch(`${base_url}/user/signup`, {
