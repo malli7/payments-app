@@ -1,4 +1,4 @@
-const base_url = "https://main--dynamic-taffy-d7ca52.netlify.app/";
+const base_url = "https://payments-19w4misf5-malli7s-projects.vercel.app/";
 export const signUp = async (userDetails) => {
   try {
     const response = await fetch(`${base_url}/user/signup`, {
